@@ -1,0 +1,9 @@
+本作品为本人的cocos游戏启蒙之作，基本上了解了游戏的制作过程和逻辑思维
+感谢博主 @偶尔e网事 的博文，地址：http://blog.csdn.net/jackystudio/article/details/11650413
+本作品创建于2016.1.10日，历时7天。
+版本信息
+cocos studio 2.3.3
+api cocos2d-x-3.8 
+Android-ndk r10 
+jdk  1.8.0
+vs 2013 

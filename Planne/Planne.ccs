@@ -1,0 +1,86 @@
+<Solution>
+  <PropertyGroup Name="Planne" Version="2.3.3.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="WelcomeScene.csd" Type="Scene" />
+        <Image Name="HelloWorld.png" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Folder Name="assets">
+          <Folder Name="font">
+            <Fnt Name="font.fnt" />
+          </Folder>
+          <Folder Name="ui">
+            <PlistImageFolder Image="shoot_background.png" PListFile="shoot_background.plist" Name=".shoot_background_PList.Dir">
+              <PlistImageFile Name="background.png" Key="background.png" />
+              <PlistImageFile Name="btn_finish.png" Key="btn_finish.png" />
+              <PlistImageFile Name="game_loading1.png" Key="game_loading1.png" />
+              <PlistImageFile Name="game_loading2.png" Key="game_loading2.png" />
+              <PlistImageFile Name="game_loading3.png" Key="game_loading3.png" />
+              <PlistImageFile Name="game_loading4.png" Key="game_loading4.png" />
+              <PlistImageFile Name="gameover.png" Key="gameover.png" />
+              <PlistImageFile Name="shoot_copyright.png" Key="shoot_copyright.png" />
+            </PlistImageFolder>
+            <PlistImageFolder Image="shoot.png" PListFile="shoot.plist" Name=".shoot_PList.Dir">
+              <PlistImageFile Name="bomb.png" Key="bomb.png" />
+              <PlistImageFile Name="bullet1.png" Key="bullet1.png" />
+              <PlistImageFile Name="bullet2.png" Key="bullet2.png" />
+              <PlistImageFile Name="enemy1.png" Key="enemy1.png" />
+              <PlistImageFile Name="enemy1_down1.png" Key="enemy1_down1.png" />
+              <PlistImageFile Name="enemy1_down2.png" Key="enemy1_down2.png" />
+              <PlistImageFile Name="enemy1_down3.png" Key="enemy1_down3.png" />
+              <PlistImageFile Name="enemy1_down4.png" Key="enemy1_down4.png" />
+              <PlistImageFile Name="enemy2.png" Key="enemy2.png" />
+              <PlistImageFile Name="enemy2_down1.png" Key="enemy2_down1.png" />
+              <PlistImageFile Name="enemy2_down2.png" Key="enemy2_down2.png" />
+              <PlistImageFile Name="enemy2_down3.png" Key="enemy2_down3.png" />
+              <PlistImageFile Name="enemy2_down4.png" Key="enemy2_down4.png" />
+              <PlistImageFile Name="enemy2_hit.png" Key="enemy2_hit.png" />
+              <PlistImageFile Name="enemy3_down1.png" Key="enemy3_down1.png" />
+              <PlistImageFile Name="enemy3_down2.png" Key="enemy3_down2.png" />
+              <PlistImageFile Name="enemy3_down3.png" Key="enemy3_down3.png" />
+              <PlistImageFile Name="enemy3_down4.png" Key="enemy3_down4.png" />
+              <PlistImageFile Name="enemy3_down5.png" Key="enemy3_down5.png" />
+              <PlistImageFile Name="enemy3_down6.png" Key="enemy3_down6.png" />
+              <PlistImageFile Name="enemy3_hit.png" Key="enemy3_hit.png" />
+              <PlistImageFile Name="enemy3_n1.png" Key="enemy3_n1.png" />
+              <PlistImageFile Name="enemy3_n2.png" Key="enemy3_n2.png" />
+              <PlistImageFile Name="game_pause_nor.png" Key="game_pause_nor.png" />
+              <PlistImageFile Name="game_pause_pressed.png" Key="game_pause_pressed.png" />
+              <PlistImageFile Name="game_resume_nor.png" Key="game_resume_nor.png" />
+              <PlistImageFile Name="game_resume_pressed.png" Key="game_resume_pressed.png" />
+              <PlistImageFile Name="hero1.png" Key="hero1.png" />
+              <PlistImageFile Name="hero2.png" Key="hero2.png" />
+              <PlistImageFile Name="hero_blowup_n1.png" Key="hero_blowup_n1.png" />
+              <PlistImageFile Name="hero_blowup_n2.png" Key="hero_blowup_n2.png" />
+              <PlistImageFile Name="hero_blowup_n3.png" Key="hero_blowup_n3.png" />
+              <PlistImageFile Name="hero_blowup_n4.png" Key="hero_blowup_n4.png" />
+              <PlistImageFile Name="ufo1.png" Key="ufo1.png" />
+              <PlistImageFile Name="ufo2.png" Key="ufo2.png" />
+            </PlistImageFolder>
+            <Image Name="shoot.png" />
+          </Folder>
+          <Image Name="fps_images-hd.png" />
+          <Image Name="fps_images-ipadhd.png" />
+          <Image Name="fps_images.png" />
+          <Folder Name="sound">
+            <Audio Name="achievement.mp3" />
+            <Audio Name="big_spaceship_flying.mp3" />
+            <Audio Name="bullet.mp3" />
+            <Audio Name="button.mp3" />
+            <Audio Name="enemy1_down.mp3" />
+            <Audio Name="enemy2_down.mp3" />
+            <Audio Name="enemy3_down.mp3" />
+            <Audio Name="game_music.mp3" />
+            <Audio Name="game_over.mp3" />
+            <Audio Name="get_bomb.mp3" />
+            <Audio Name="get_double_laser.mp3" />
+            <Audio Name="out_porp.mp3" />
+            <Audio Name="use_bomb.mp3" />
+          </Folder>
+        </Folder>
+        <Project Name="GameOverScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

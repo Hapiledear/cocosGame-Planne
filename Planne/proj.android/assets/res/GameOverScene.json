@@ -1,0 +1,196 @@
+{
+  "ID": "afa1cd2f-9b89-4576-a505-e0aec29059fc",
+  "Version": "2.3.3.0",
+  "Name": "GameOverScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 11,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "PlistSubImage",
+              "Path": "gameover.png",
+              "Plist": "assets/ui/shoot_background.plist"
+            },
+            "BlendFunc": {
+              "Src": 770,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 2.6708,
+              "Y": -1.5501
+            },
+            "Scale": {
+              "ScaleX": 1.3264,
+              "ScaleY": 1.1233
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0042,
+              "Y": -0.0016
+            },
+            "PreSize": {
+              "X": 0.75,
+              "Y": 0.8875
+            },
+            "LeftMargin": 2.6708,
+            "RightMargin": 157.3292,
+            "TopMargin": 109.5501,
+            "BottomMargin": -1.5501,
+            "Tag": 12,
+            "ActionTag": -996224896,
+            "Size": {
+              "X": 480.0,
+              "Y": 852.0
+            },
+            "Name": "gameover_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "LabelText": "Fnt Text Label",
+            "LabelBMFontFile_CNB": {
+              "Type": "Normal",
+              "Path": "assets/font/font.fnt",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 291.8395,
+              "Y": 416.5718
+            },
+            "Scale": {
+              "ScaleX": 2.5365,
+              "ScaleY": 4.3802
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.456,
+              "Y": 0.4339
+            },
+            "PreSize": {
+              "X": 0.0188,
+              "Y": 0.0271
+            },
+            "LeftMargin": 285.8395,
+            "RightMargin": 342.1605,
+            "TopMargin": 530.4282,
+            "BottomMargin": 403.5718,
+            "Tag": 13,
+            "ActionTag": -258727849,
+            "Size": {
+              "X": 12.0,
+              "Y": 26.0
+            },
+            "Name": "PointCode",
+            "ctype": "TextBMFontObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "PlistSubImage",
+              "Path": "btn_finish.png",
+              "Plist": "assets/ui/shoot_background.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 120,
+            "Scale9Height": 26,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 304.4691,
+              "Y": 307.8858
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4757,
+              "Y": 0.3207
+            },
+            "PreSize": {
+              "X": 0.2344,
+              "Y": 0.05
+            },
+            "LeftMargin": 229.4691,
+            "RightMargin": 260.5309,
+            "TopMargin": 628.1142,
+            "BottomMargin": 283.8858,
+            "Tag": 16,
+            "ActionTag": -45874677,
+            "Size": {
+              "X": 150.0,
+              "Y": 48.0
+            },
+            "Name": "Button_1",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "assets/font/font.fnt",
+        "assets/font/font.png",
+        "assets/ui/shoot_background.plist",
+        "assets/ui/shoot_background.png",
+        "Default/Button_Disable.png",
+        "Default/Button_Press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}
